@@ -1,7 +1,7 @@
 📌 README.md - Employee Payroll Processing System
 
 📌 Project Overview
-This Java-based **Employee Payroll Processing System** calculates **weekly salary**, **overtime pay**, and **deductions** based on employee work hours. The system processes data from multiple text files to determine an employee’s **gross pay, tax, government deductions, and net pay** while following specific company policies for overtime and lateness.
+This Java-based **Employee Payroll Processing System** calculates **weekly salary** based on employee work hours. The system processes data from multiple text files to determine an employee’s **gross pay, tax, government deductions, and net pay** while following specific company policies for overtime and lateness.
 
 🚀 How to Run the Program
 1️⃣ **Ensure Java is installed on your system.**  
