@@ -39,17 +39,21 @@ Enhanced error handling for missing/invalid Excel files
 ****MotorPH_Payroll/
 
 │── src/
+
 │   ├── test/employeeworkhours/
 │   │   ├── EmployeeWorkHours.java  # Processes work hours & overtime
 │   │   ├── WeeklyDeductions.java   # Computes deductions (SSS, Pag-IBIG, PhilHealth)
 │   │   ├── PayrollCalculator.java  # Computes gross pay, net pay, and tax
 │   │   ├── MainApp.java            # Main entry point for execution
 │── data/
+
 │   ├── login_logout.xlsx           # Employee login/logout records
 │   ├── weekly_hours.xlsx           # Computed weekly hours and OT
 │   ├── employee_salaries.xlsx      # Employee salary details
 │── logs/
+
 │   ├── payroll.log                 # Log file for process tracking
+
 │── README.md                       # Project documentation
 
 
@@ -61,7 +65,7 @@ Install Apache POI (for Excel processing)
 Install NetBeans (or any Java IDE)
 
 2. Clone the Repository
-git clone https://github.com/ayoumax/MotorPH.git
+git clone https://github.com/ayoumax/MO-IT101-Group16/tree/master.git
 cd MotorPH
 
 3. Open the Project in NetBeans
