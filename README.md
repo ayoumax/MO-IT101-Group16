@@ -1,10 +1,10 @@
-**MotorPH Payroll System
-
+MOTORPH PAYROLL
+__________________________________________________________________
 About the Project
 
 The MotorPH Payroll System is a Java-based payroll processing application designed to compute weekly work hours, overtime, deductions, and net wages for employees. It efficiently reads data from Excel files, performs calculations, and exports payroll results back to Excel for easy reporting.
 
-****Key Features
+Key Features
 
 ✅ Work Hours & Overtime Computation
 
@@ -28,36 +28,40 @@ Calculates withholding tax using the Philippine tax brackets
 Exports weekly work hours and payroll data to weekly_hours.xlsx
 Logs errors and payroll process details into payroll.log for tracking
 
-✅ Code Quality Improvements (Applied QA Feedback)
-
-Improved comments and function headers for readability
-Refactored redundant calculations into helper functions
-Optimized variable usage to reduce recalculations
-Implemented logging for debugging and tracking
-Enhanced error handling for missing/invalid Excel files
-
-****MotorPH_Payroll/
+___________________________________________________________________
+PROJECT STRUCTURE
+___________________________________________________________________
 
 │── src/
 
 │   ├── test/employeeworkhours/
-│   │   ├── EmployeeWorkHours.java  # Processes work hours & overtime
-│   │   ├── WeeklyDeductions.java   # Computes deductions (SSS, Pag-IBIG, PhilHealth)
-│   │   ├── PayrollCalculator.java  # Computes gross pay, net pay, and tax
-│   │   ├── MainApp.java            # Main entry point for execution
+
+│   │   ├── EmployeeWorkHours.java  					# Processes work hours & overtime
+
+│   │   ├── WeeklyDeductions.java   					# Computes deductions (SSS, Pag-IBIG, PhilHealth)
+
+│   │   ├── PayrollCalculator.java  					# Computes gross pay, net pay, and tax
+
+│   │   ├── MainApp.java            					# Main entry point for execution
+
 │── data/
 
-│   ├── login_logout.xlsx           # Employee login/logout records
-│   ├── weekly_hours.xlsx           # Computed weekly hours and OT
-│   ├── employee_salaries.xlsx      # Employee salary details
+│   ├── login_logout.xlsx          					# Employee login/logout records
+
+│   ├── weekly_hours.xlsx           					# Computed weekly hours and OT
+
+│   ├── employee_salaries.xlsx      					# Employee salary details
+
 │── logs/
 
-│   ├── payroll.log                 # Log file for process tracking
+│   ├── payroll.log                 					# Log file for process tracking
 
-│── README.md                       # Project documentation
+│── README.md                       				        # Project documentation
+
+_____________________________________________________________________
 
 
-**Getting Started
+Getting Started
 
 1. Installing Requirements
 Install Java 23 (or latest version)
@@ -78,15 +82,25 @@ Right-click MainApp.java → Click Run File
 Sample Output (Console)
 
 🚀 Starting MotorPHPayroll System...
+
 ✅ Processing Employee Work Hours...
+
 ✅ Weekly hours exported to: weekly_hours.xlsx
+
 ✅ Running Weekly Deductions...
+
 ✅ Looking for weekly hours file at: weekly_hours.xlsx
+
 ✅ Deductions computed successfully.
+
 ✅ Calculating Payroll...
+
 ✅ Payroll processing completed!
+
 ✅ All payroll data saved to: weekly_hours.xlsx
+
 ✅ Logs saved to: payroll.log
+
 ✅ Contributors
 
 ****MO-IT101 S1101 - Group 16
