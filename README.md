@@ -61,7 +61,7 @@ ___________________________________________________________________
 _____________________________________________________________________
 
 
-Getting Started
+GETTING STARTED
 
 1. Installing Requirements
 Install Java 23 (or latest version)
@@ -79,9 +79,9 @@ Ensure all .xlsx files exist inside the src/ folder
 4. Run the Payroll System
 Right-click MainApp.java → Click Run File
 
-Sample Output (Console)
+SAMPLE OUTPUT (CONSOLE)
 
-🚀 Starting MotorPHPayroll System...
+✅  Starting MotorPHPayroll System...
 
 ✅ Processing Employee Work Hours...
 
@@ -101,12 +101,15 @@ Sample Output (Console)
 
 ✅ Logs saved to: payroll.log
 
-✅ Contributors
+CONTRIBUTORS
 
-****MO-IT101 S1101 - Group 16
+MO-IT101 S1101 - Group 16
 
 Arriesgado, Macky
+
 Marquez, Neil Kennedy
+
 Lozada, Ma Kristel
+
 Aquino, Nikki Mae
 
